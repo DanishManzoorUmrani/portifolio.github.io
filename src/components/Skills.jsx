@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNode, FaGitAlt, FaBootstrap } from 'react-icons/fa';
 import { SiMongodb, SiExpress, SiTailwindcss, SiMicrosoftword, SiMicrosoftpowerpoint, SiMicrosoftexcel } from 'react-icons/si';
+// import { Code } from '@mui/icons-material'; // Import from MUI
 
 const Skills = () => {
   return (
@@ -21,6 +22,7 @@ const Skills = () => {
         <SiMicrosoftword className="icon word" title="MS Word" />
         <SiMicrosoftexcel className="icon excel" title="MS Excel" />
         <SiMicrosoftpowerpoint className="icon powerpoint" title="MS PowerPoint" />
+        {/* <Code className="icon mui-code" title="Material UI Code" />  */}
       </div>
     </section>
   );
